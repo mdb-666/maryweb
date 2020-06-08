@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: Arrow;
+	src: url("Arrow.ttf")
+}
+
+@font-face {
+  font-family: Cabrion;
+	src: url("Cabrion.otf")
+}
+
+@font-face {
+	font-family: Helvetica;
+	src: url("Helvetica.otf")
+}
+
+h1 {
+	font-size: 16pt;
+	font: normal;
+	font-family: Arrow;
+	padding: 2px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+p {
+	font-size: 16pt;
+	font: normal;
+	font-family: Helvetica;
+	padding: 2px;
+	margin-top: 10px;
+	margin-left: 10px;
+}

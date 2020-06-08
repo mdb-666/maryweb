@@ -11,6 +11,12 @@
 	src: url("Cabrion.otf")
 }
 
+@font-face {
+	font-family: Helvetica;
+	src: url("Helvetica.otf")
+}
+
+
 
 ul {
 	font-family: Cabrion;
@@ -33,45 +39,76 @@ ul ul {
 
 .subpage {
 	font-size: 16pt;
-	font: italic;
+	font: normal;
 	font-family: Arrow;
 	padding: 2px;
 }
 
 .page {
 	font-size: 18pt;
-	font: italic;
+	font: normal;
 	font-family: Arrow;
 	padding: 8px;
 }
 
-/* unvisited link */
+
 a:link {
   color: black;
 }
 
-/* visited link */
+
 a:visited {
-  color: green;
+  color: darkgreen;
 }
 
-/* mouse over link */
+
 a:hover {
   color: hotpink;
 }
 
-/* selected link */
+
 a:active {
   color: blue;
 }
 
-body {
+.home {
 	background-image: url("img/cdmx.jpg");
 	background-width: 90%;
 	background-position: top;
 	background-repeat: no-repeat;
 }
 
+.content {
+	width: 80%;
+	top: 20px;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+h1 {
+	font-size: 16pt;
+	font-family: Arrow;
+	padding: 2px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+h2 {
+	font-size: 16pt;
+	font-style:italic;
+	font-family: Cabrion;
+	padding: 2px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+p {
+	font-size: 16pt;
+	font-family: Helvetica;
+	padding: 2px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
 
 
 
