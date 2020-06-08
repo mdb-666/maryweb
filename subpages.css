@@ -16,10 +16,82 @@
 	src: url("Helvetica.otf")
 }
 
-h1 {
+
+
+ul {
+	font-family: Cabrion;
+	font: normal;
+	font-size: 24pt;
+	list-style-type: none;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+
+ul li:hover>ul {
+  display: block;
+
+}
+
+ul ul {
+  display: none
+}
+
+.subpage {
 	font-size: 16pt;
 	font: normal;
 	font-family: Arrow;
+	padding: 2px;
+}
+
+.page {
+	font-size: 18pt;
+	font: normal;
+	font-family: Arrow;
+	padding: 8px;
+}
+
+
+a:link {
+  color: black;
+}
+
+
+a:visited {
+  color: darkgreen;
+}
+
+
+a:hover {
+  color: hotpink;
+}
+
+
+a:active {
+  color: blue;
+}
+
+
+
+.content {
+	width: 80%;
+	top: 20px;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+h1 {
+	font-size: 16pt;
+	font-family: Arrow;
+	padding: 2px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+h2 {
+	font-size: 16pt;
+	font-style:italic;
+	font-family: Cabrion;
 	padding: 2px;
 	margin-top: 10px;
 	margin-left: 10px;
@@ -27,9 +99,11 @@ h1 {
 
 p {
 	font-size: 16pt;
-	font: normal;
 	font-family: Helvetica;
 	padding: 2px;
 	margin-top: 10px;
 	margin-left: 10px;
 }
+
+
+
