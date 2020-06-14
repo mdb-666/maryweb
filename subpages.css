@@ -51,6 +51,21 @@ ul ul {
 	padding: 8px;
 }
 
+.content {
+	margin: auto;
+	margin-top: inherit;
+	width: 40%;
+	padding: 5px;
+	display: block;
+}
+
+@media screen and max-width 900px 
+	.content {
+		margin: auto;
+		width: 100%;
+		padding: 5px;
+	}
+
 
 a:link {
   color: black;
@@ -72,13 +87,6 @@ a:active {
 }
 
 
-
-.content {
-	width: 80%;
-	top: 20px;
-	margin-top: 50px;
-	margin-left: 50px;
-}
 
 h1 {
 	font-size: 16pt;
